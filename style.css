@@ -1,0 +1,62 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:" Mullish", sans-serif;
+}   
+
+body {  
+    width: 80vh;
+    height: 80vh;
+    background-color: aqua;
+    display: grid;
+    padding-left: center;
+}   
+
+form {  
+    background-color: greenyellow;
+    padding: 80px;  
+    width: 50px;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow:0 10px 6px -6px gray ;
+    -moz-box-shadow: 0 10px 6px -6px gray;
+    box-shadow: 0 10px 6px -6px gray;
+}   
+
+#tempCalc label {       
+    font-size: 30px;    
+    color: blue;
+    font-style: italic;
+}   
+
+#temp { 
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}   
+
+#temp_diff {    
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}   
+
+[type="submit"] {   
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: beige;
+}   
+
+#resultContainer {
+   font-size: 35px;
+}
